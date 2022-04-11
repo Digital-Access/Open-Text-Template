@@ -1,0 +1,79 @@
+* {
+    font-family: gothamLight, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease 0.4s;
+    color: white;
+}
+
+@font-face {
+    font-family: gothamMed;
+    src: url(https://a.storyblok.com/f/112136/x/5e402b0b67/gotham-medium.otf);
+}
+
+@font-face {
+    font-family: gothamLight;
+    src: url(https://a.storyblok.com/f/112136/x/1e7232d46e/gotham-book.otf);
+}
+
+@font-face {
+    font-family: gothamBold;
+    src: url(https://a.storyblok.com/f/112136/x/361f778928/gotham-bold.otf);
+}
+
+
+body{
+   padding: 1rem;
+    background-color: #172B49;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+.question{
+    font-size:0.9rem;
+    margin-top: 1rem;
+}
+
+.textArea{
+    width: 100%;
+    resize: none;
+    padding: 1rem;
+    color: #172B49;
+}
+
+.btn{
+    padding: 0.5rem 1rem 0.5rem 1rem ;
+    background-color: #25517B;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    box-shadow: black 0 3px 4px;
+    background-color: #A6529A;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.celebration{
+    width:  auto;
+    height: 10rem;
+    border-radius: 20px;
+}
+
+.celebrationContainer{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
