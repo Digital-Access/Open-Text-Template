@@ -23,7 +23,8 @@ celebrationImg.src = config.celebration_image
 const finished = () => {
     textArea.style.display = 'none';
     celebration.style.display = 'flex';
-    
+    celebration.style.marginTop = '2rem';
+    submit.style.display = 'none';
 }
 
 submit.addEventListener('click', finished)
