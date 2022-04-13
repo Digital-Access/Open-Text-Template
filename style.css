@@ -100,6 +100,9 @@ body{
 
 @keyframes slide-up {
     0%{
-        transform: translatey(100vh);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
